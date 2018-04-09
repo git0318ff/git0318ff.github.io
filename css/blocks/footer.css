@@ -1,0 +1,77 @@
+.footer{
+    color: #4b73b5;
+    height: 75px;
+    margin-top: -75px;
+    position: relative;
+    background: #4b73b5;
+    clear: both;
+    min-width: 1100px;
+}
+
+.footer__col{
+    float: left;
+    width: 33.33%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+.footer__col--left {
+    padding-top:left;
+    padding-top:11px;
+}
+.footer__col--middle{
+    padding-top:20px;
+    text-align: center;
+}
+.footer__col--right{
+    padding-top:16px;
+    text-align: right;
+}
+.copyright__loftschool, .copyright__autor, .social-networks__title{
+   font-weight: bold;
+}
+.copyright__loftschool{
+    color: #fff;
+    text-decoration: underline;
+}
+.social-networks__list{
+     margin-right: 14px;
+}
+.social-networks__item{
+    display: inline-block;
+    padding-top:6px;
+    padding-left:8px; 
+}
+.social-networks__link{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #d2def3;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .2s;
+}
+.social-networks__link_vk{
+    background-image: url('../../img/icon/icon__social-networks/vk.png');
+    
+} 
+.social-networks__link_fb{
+    background-image: url('../../img/icon/icon__social-networks/fb.png');
+}    
+.social-networks__link_google{
+    background-image: url('../../img/icon/icon__social-networks/google.png');
+}  
+.social-networks__link_twitter{
+    background-image: url('../../img/icon/icon__social-networks/twitter.png');
+}  
+.social-networks__link_mail{
+    background-image: url('../../img/icon/icon__social-networks/mail.png');
+}  
+
+.social-networks__link:hover {
+    background-color: white;
+}
+

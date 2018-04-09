@@ -1,0 +1,93 @@
+.tariffs__title{
+    font-size: 49px;
+    font-weight: bold;
+    margin-bottom:19px;
+}            
+.tariffs__list, .tariffs__item, .tariffs__text{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.tariffs__list{
+    margin-left: 3px;
+    margin-bottom: 45px;
+}
+.tariffs__item{
+        width: 250px;
+        min-height: 456px; 
+        border: 1px solid #fff; 
+        border-radius: 5px;
+        padding-top:41px;
+        padding-left:30px;
+        padding-right: 33px;
+        margin-right: 16px;
+        vertical-align: top;
+}
+.tariffs__item:hover{
+    border: 1px solid #e8e9ed; 
+    
+}
+.tariffs__icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #4b73b5 center center no-repeat;
+    margin: 0px auto;
+    margin-bottom:26px;
+ 
+}
+  
+.tariffs__icon_standart{
+    background-image: url('../../img/icon/icon__tariffs/flower.png');
+}
+.tariffs__icon_premium{
+    background-image: url('../../img/icon/icon__tariffs/mark-as-favorite-star.png');
+}
+.tariffs__icon_luxuri{
+    background-image: url('../../img/icon/icon__tariffs/painter-palette.png');
+}
+
+.tariffs__name{
+    font-size: 10.78px;
+    font-weight: bold;
+    color: #212121;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.tariffs__text{
+    font-size: 18px;
+    font-weight: 300;    
+    margin-bottom:7px;
+    line-height: 1.6;
+}
+
+.tariffs__feature{
+    list-style: disc;
+     text-align: left;
+     padding-left:7px;
+}
+.tariffs__feature-item{
+     padding-top: 5px;
+     padding-left:11px;
+     line-height: 1.73;
+}
+
+.tariffs__price{
+    font-weight: normal;
+}
+
+.tariffs__subscript{
+    font-size: 30px;
+    color: #202020;
+}
+
+.tariffs__value{
+    font-size: 53.89px;
+    color: #212121;
+}
+

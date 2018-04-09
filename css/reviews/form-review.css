@@ -1,0 +1,224 @@
+@import url('../layout/base.css');
+
+.comment{
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.form{
+    background: #f5f5f5;
+    min-height: 425px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #221f1f;
+    position: relative;
+}  
+.form__content{
+    padding-left:66px;
+    position: relative;
+}
+.form__title{
+    font-size: 49px;
+    font-weight: bold;
+    color: #221f1f;
+    padding-top:35px;
+    margin-bottom: 7px;
+    display:inline-block;
+}  
+.form__row {
+    margin-bottom: 1px;
+    position: relative;
+}
+  
+.form__col {
+    display: inline-block;
+    margin-right: 18px;
+    position: relative;
+}
+
+.form__label{
+    display: block;
+    max-width: 270px;
+    margin-bottom: 7px;
+} 
+#link-vk{
+    margin-bottom: 17px;
+}
+.form__label--review-text{
+    margin-bottom: 5px;
+}
+
+.form__input-text{
+    width: 270px;
+    /* height: 47px; */
+    border-radius: 4px;
+    border:0;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    background: #fff;
+}
+
+.form__input-text:focus {
+    border: 1px solid #4b73b5;
+    outline: none;
+  }
+.form__text-textarea{
+    width: 560px;
+    height: 90px;
+    resize: none;
+    border-radius: 4px;
+    border:0;
+    padding: 12px 10px;
+    margin-bottom: 12px;
+    resize: none;
+}
+.form__text-textarea:focus{
+    border: 1px solid #4b73b5;
+    outline: none; 
+}
+.form__input-text::-webkit-input-placeholder{
+    font-weight: 300;   
+}
+.form__input-text::-moz-placeholder{
+    font-weight: 300;
+}
+
+.form__text-textarea::-webkit-input-placeholder{
+    font-weight: 300;
+    /* color: #221f1f; */
+}
+
+.form__text-textarea::-moz-placeholderr{
+    font-weight: 300;
+    /* color: #221f1f; */
+}
+
+.form__radio-col {
+    display: inline-block;
+    position: relative;
+    margin-right: 25px;
+}
+
+.form__radio-title{
+margin-bottom: 5px;
+  }
+.radio{
+    position: relative;
+}
+.radio__input{
+    position: absolute;
+    left: -9999px;
+    top: 0;
+}
+.radio__btn{
+display: inline-block;    
+vertical-align: middle;
+position: relative;
+/* padding-top:25px; */
+cursor: pointer;   
+width: 20px;
+height: 20px;
+border-radius: 50%;
+border: 1px solid #c9c9c9;
+box-sizing: border-box;
+} 
+.radio__text{
+    font-size: 14px;
+    display: inline-block; 
+    vertical-align: middle;
+    cursor: pointer;   
+}
+.radio__btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #4b73b5;
+}
+.radio__input:checked + .radio__btn{
+    border-color: #4b73b5;
+}
+.radio__input:checked + .radio__btn::after {
+    width: 8px;
+    height: 8px;
+  }
+.radio__input:checked + .radio__btn + .radio__text{
+    color:#1c5bc3;
+}
+.form__col-bottom{
+    float: left;
+    /* vertical-align: top; */
+}
+.form__col-bottom_btn{
+float: right;
+margin-right: 71px;
+padding-top: 5px;
+}
+/* .form__col-radio{
+    margin-right: 220px;
+    vertical-align: top;
+} */
+/* .form__col-bottom {
+    display: inline-block;
+    margin-right: 18px;
+    position: relative;
+    margin-right : 70px;
+    vertical-align: top;
+} 
+ .form__col-bottom_radio{
+    margin-right: 100px;
+} */
+.form__submit{
+    position: relative;
+    width: 155px;
+    height: 43px;
+    /* background: #4b73b5; */
+    background: center  center  #4b73b5 no-repeat;
+    font-size: 12px;
+    /* background: url('../../img/intro/main_icon.png') right  center  #4b73b5 no-repeat;font-size: 12px; */
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid #4b73b5;
+    cursor: pointer;
+    line-height: 43px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    padding-left: 20px;
+    /* padding-right:15px; */
+    outline: none;
+    
+}
+/* .form__col-radio{
+margin-right: 5px;
+} */
+.form__submit::after {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;  /* для больших картинок 0 */
+    padding-left: 7px;
+  }
+.form__submit::after {content: url('../../img/icon/icon__btn/btn__send.png');}
+
+/* .link__title{
+    margin-right: 20px;
+} */
+.form__submit:hover, .form__submit:active{
+    outline: none;
+    border:0;
+    color: #1c5bc3;
+    cursor: pointer;
+    background: right  center  #fff no-repeat;
+} 
+.form__submit:hover::after{
+    content: url('../../img/icon/icon__btn/btn__send_hover.png')
+}

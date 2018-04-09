@@ -1,0 +1,31 @@
+@import url('../layout/base.css');
+
+/* .container{
+    max-height: 170px;
+} */
+ .instruction{
+    background: #4bb56b;
+    min-height: 170px;
+    margin-bottom: 60px;
+}  
+
+.instruction__content{
+    padding-left: 209px;
+    padding-top: 45px;
+    line-height: 1.6;
+}
+.request__text{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    width: 630px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.request__link, .request__phone{
+    font-weight: 700;
+    color: #fff;
+}
+.request__link{
+    text-decoration: underline;
+}

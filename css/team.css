@@ -1,0 +1,17 @@
+     
+/* layout settings */
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+
+@import url('fonts.css');
+/* sections */
+@import url('blocks/header.css');
+@import url('blocks/menu.css');
+@import url('blocks/full-anime.css');
+@import url('blocks/content.css');
+@import url('blocks/breadcrumbs.css');
+
+@import url('team/team-list.css');
+
+@import url('blocks/pagination.css');
+@import url('blocks/footer.css');

@@ -1,0 +1,66 @@
+.menu{
+    float: left;
+    width: 167px;
+    margin-right: 10px;
+    padding-top:44px;
+   
+}
+.menu__link{
+    display:inline-block;
+  
+}
+.menu__icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:12px;
+    background: url('../../img/icon/icon__menu/spritemenu.png');
+}
+.menu__icon_main{
+    width: 17px;
+    height: 18px;
+    background-position: -32px -5px;
+}
+.menu__icon_reviews{
+    width: 20px;
+    height: 18px;    
+    background-position: -90px -5px;
+}
+.menu__icon_team{
+    width: 23px;
+    height: 18px;
+    background-position: -153px -5px;
+}
+.menu__link:hover .menu__icon_main,
+.menu__link--active .menu__icon_main{
+    background-position: -6px -5px;
+}
+.menu__link:hover .menu__icon_reviews,
+.menu__link--active .menu__icon_reviews{
+    background-position: -60px -5px;
+  }
+ .menu__link:hover .menu__icon_team,
+ .menu__link--active .menu__icon_team{
+    background-position: -120px -5px;
+ }
+.menu__list{
+    display: inline-block;
+    
+}
+.menu__item{
+    margin-bottom: 28px;
+}
+.menu__title{
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #4b73b5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.menu__link:hover .menu__title,
+.menu__link--active .menu__title {
+  color:#221f1f;;
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+}
+
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;  
+}
+
+/* @font-face {
+    font-family: 'roboto';
+    src: url('../roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('../roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;  
+
+}
+*/
+
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('../fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    font-family: "roboto", arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}

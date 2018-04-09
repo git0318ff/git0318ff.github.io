@@ -1,0 +1,30 @@
+.anime{
+    animation: anime 2s   ease-in-out;
+    -webkit-animation: anime 2s    ease-in-out; 
+}
+@keyframes anime {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;     
+       
+    }
+   
+    100% {
+        transform:  translateX(0px);
+        /* border: 1px solid #e8e9ed;  */
+        opacity: 1;
+    }
+}
+   
+@-webkit-keyframes anime{
+    0% {   
+         transform: translateX(0px);
+        opacity: 0;   
+       
+    }
+    100% {
+        transform:  translateX(0px);
+        /* border: 1px solid #e8e9ed;  */
+        opacity: 1;
+    }
+} 
